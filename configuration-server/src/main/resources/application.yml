@@ -1,0 +1,13 @@
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/Users/leo7m/Documents/Workspace/Microservices-config-server
+
